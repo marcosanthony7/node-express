@@ -1,5 +1,5 @@
 {
-  "name": "aula-node1",
+  "name": "node-express-marcos",
   "version": "1.0.0",
   "description": "node -v         npm -v     ## Caso não encontre esse comando, instalar node         https://nodejs.org/     # Executar no terminal         npm init -y",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.7.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"

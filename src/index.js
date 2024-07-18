@@ -7,13 +7,13 @@ app.use(express.json());
 // app.use(express.urlencoded()); // via form
 
 app.get('/', (req, res) => {
-  res.send('Bem-vindo!');
+  res.send('Bem-vindos(as)!');
 });
 
 app.post('/salvar', (req, res) => {
   let cliente1 = req.body.cliente1;
   let cliente2 = req.body.cliente2;
-  res.send(`Bem-vindo: ${cliente1.nome} e ${cliente2.nome}`);
+  res.send(`Bem-vindos(as): ${cliente1.nome}, ${cliente2.nome}`);
 });
 
 app.listen(port, () => {
